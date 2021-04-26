@@ -6,9 +6,9 @@ from queue import Queue
 from extsockets import *
 
 
-hostname = socket.gethostname()
-HOST = socket.gethostbyname(hostname)
-# HOST = "54.236.17.68"
+# hostname = socket.gethostname()
+# HOST = socket.gethostbyname(hostname)
+HOST = "52.91.161.11"
 PORT = 2012
 
 pending, _open, closed = "pending", "open", "closed"
